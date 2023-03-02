@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+/* Your Styles */
+
+.main-title{
+  text-align: center;
+  text-decoration: underline;
+
+}
+form#product-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: lightgray
+}
+
+input[type="submit"] {
+  margin: 0% 5% 0% 5%;
+  background-color: black;
+    color: white;
+}
+
+table{
+  width: 100%;
+  margin-top: 5%;
+}
+th {
+  background: black;
+  color: white;
+}
+
+tbody {
+  background-color: azure;
+}
+.container{
+
+}
+
+button.btn.btn-delete {
+  color: white;
+  background: red;
+  border: none;
+  padding: 3%;
+}
